@@ -18,12 +18,12 @@ def converter(unit, temp, neg):
 
     if unit == 0:
         # Conversion from Fahrenheit to Celcius
-        C = int(5 * (temp - 32) / 9)*neg
+        C = int(5 * (temp*neg - 32) / 9)
         print(f"{temp*neg}F is {C}C")
 
     if unit == 1:
     # Conversion from Celcius to Fahrenheit
-        F = int((5 * temp / 9) + 32)*neg
+        F = int((9 * temp*neg / 5) + 32)
         print(f"{temp*neg}C is {F}F")
 
 #-----------------------------------------------------------------------------------------------------------------------
