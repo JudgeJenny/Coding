@@ -11,8 +11,8 @@
 def converter(temp, direction): # Temperature converter and statements
     """ This function takes the user input for temperature and conversion direction, performs the math
     and generates the statement. """
-    temp = float(temp) 
-    direction = int(direction) 
+    temp = float(temp)
+    direction = int(direction)
     if direction == 1: # celsius to farenheit
         farenheit = temp * 9 / 5 + 32
         print(f"{temp} degrees Celsius is {farenheit} degrees Farenheit")
