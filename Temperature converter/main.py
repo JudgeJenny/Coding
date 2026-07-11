@@ -1,3 +1,5 @@
+# Let's just ignore this one - this was a warm up for how much I could remember and made a real muckery of it.
+
 ## Temperature converter project
 
 # Create a program that takes user input 
@@ -53,7 +55,7 @@ while itsago == True:
 
     # Custom statements to confirm the user's choice and ask for the number to convert.
     if unit == 0:
-        temp = input("You got it coach! We're going F to C. \nNow, what number would you like to convert from Fahrenheit to Celcius? ")
+        temp = input("You got it, coach! We're going F to C. \nNow, what number would you like to convert from Fahrenheit to Celcius? ")
         while str.isdigit(temp) == False:
             # Check if it's just a negative number.
             if temp[0] == "-":
@@ -64,7 +66,7 @@ while itsago == True:
                 temp = input("Come on, that's not a number. Give me just a digit to convert from F to C: ")
 
     if unit == 1:
-        temp = input("You got it coach! We're going C to F. \nNow, what number would you like to convert from Celcius to Fahrenheit? ")
+        temp = input("You got it, coach! We're going C to F. \nNow, what number would you like to convert from Celcius to Fahrenheit? ")
         while str.isdigit(temp) == False:
             # Check if it's just a negative number.
             if temp[0] == "-":
