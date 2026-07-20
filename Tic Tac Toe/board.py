@@ -41,11 +41,11 @@ class Board():
         """ Displays the game board with each X/O that has been entered. """
         print(
             "   A   B   C \n" \
-            f"1  {self.squares["A1"]} | {self.squares["B1"]} | {self.squares["C1"]} \n" \
+            f"1  {self.squares['A1']} | {self.squares['B1']} | {self.squares['C1']} \n" \
             "  ---+---+---\n" \
-            f"2  {self.squares["A2"]} | {self.squares["B2"]} | {self.squares["C2"]} \n" \
+            f"2  {self.squares['A2']} | {self.squares['B2']} | {self.squares['C2']} \n" \
             "  ---+---+---\n" \
-            f"3  {self.squares["A3"]} | {self.squares["B3"]} | {self.squares["C3"]} \n" \
+            f"3  {self.squares['A3']} | {self.squares['B3']} | {self.squares['C3']} \n" \
         )
     
     def check_valid_position(self, position):

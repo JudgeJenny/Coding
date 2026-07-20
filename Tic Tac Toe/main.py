@@ -78,7 +78,7 @@ while keep_playing == True:
             players[turn].wins += 1
             players[turn_order[turn_number - 1]].go_first = True
             players[turn_order[turn_number - 1]].loses += 1
-            print(f"{players[0].name} wins!\n")
+            print(f"{players[turn].name} wins!\n")
             break
         
         # Count which turn we are on. If no winner at 9 turns, it's a draw. No winner.
