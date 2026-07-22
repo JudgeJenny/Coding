@@ -40,7 +40,7 @@ class Board():
     def display_board(self):
         """ Displays the game board with each X/O that has been entered. """
         print(
-            "   A   B   C \n" \
+            "\n   A   B   C \n" \
             f"1  {self.squares['A1']} | {self.squares['B1']} | {self.squares['C1']} \n" \
             "  ---+---+---\n" \
             f"2  {self.squares['A2']} | {self.squares['B2']} | {self.squares['C2']} \n" \
